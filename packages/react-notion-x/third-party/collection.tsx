@@ -161,6 +161,7 @@ const CollectionViewBlock: React.FC<{
   }
 
   const title = getTextContent(collection.name).trim();
+
   if (collection.icon) {
     block.format = {
       ...block.format,

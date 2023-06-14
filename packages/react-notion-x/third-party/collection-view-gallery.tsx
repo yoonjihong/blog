@@ -46,6 +46,7 @@ function Gallery({ blockIds, collectionView, collection }) {
         <div className={'postList'}>
           {blockIds?.map(blockId => {
             const block = recordMap.block[blockId]?.value as PageBlock;
+
             if (!block) return null;
 
             return (
